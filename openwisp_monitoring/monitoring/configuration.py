@@ -235,7 +235,7 @@ DEFAULT_METRICS = {
                 'query': chart_query['disk'],
             }
         },
-        'alert_settings': {'operator': '>', 'threshold': 90, 'tolerance': 0},
+        'alert_settings': {'operator': '>', 'threshold': 97, 'tolerance': 2},
         'notification': {
             'problem': {
                 'verbose_name': 'Disk usage PROBLEM',
